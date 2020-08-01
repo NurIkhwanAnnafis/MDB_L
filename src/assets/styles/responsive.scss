@@ -1,0 +1,21 @@
+$media: screen;
+$feature_min: min-width;
+$feature_max: max-width;
+$value_one: 767px;
+$value_two: 768px;
+$value_three: 991px;
+$value_four: 992px;
+$value_five: 1199px;
+
+@media only #{$media} and ($feature_max : $value_one) {
+}
+
+@media only #{$media} and ($feature_min : $value_two) and ($feature_max : $value_three) {
+}
+
+@media only #{$media} and ($feature_min : $value_four) and ($feature_max : $value_five) {
+}
+
+// Only For Mobile and Tab Navbar
+@media only #{$media} and ($feature_max : $value_three) {
+}

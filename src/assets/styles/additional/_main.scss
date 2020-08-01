@@ -1,0 +1,21 @@
+.wrapper{
+    .banner-login {
+        background-image: url('../../../src/assets/images/home/home-banner.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: top;
+    }
+    .login {
+        background-color: #0497FE;
+    }
+    .main{
+        span {
+            color: #0497FE;
+        }
+        a {
+            font-size: 12px;
+            color: #0497FE;
+        }
+    }
+}
